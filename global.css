@@ -1,0 +1,39 @@
+/* =============== 全局背景设置 =============== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-image: url("geo-jiao.github.io/Desktop_Wallpapers_787-10.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  min-height: 100vh;
+  font-family: sans-serif;
+}
+
+/* =============== 底部按钮栏样式 =============== */
+.footer {
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+  color: #ffcc00; /* 鼠标悬停变成金色 */
+}
