@@ -21,14 +21,17 @@ body {
 
 /* =============== 底部按钮栏样式 =============== */
 .footer {
-  background-color: black !important; /* 强制生效 */
+  background-color: #1b1425;
   padding: 20px;
   text-align: center;
-  position: fixed; /* 设置为fixed，始终固定在底部 */
-  bottom: 0;       /* 底部对齐 */
-  width: 100%;     /* 底栏宽度填满屏幕 */
-  z-index: 9999;   /* 确保底栏在最上层显示 */
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 9999;
+  border-top: 2px solid #ffcc00; /* 绿色边框 */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* 阴影效果 */
 }
+
 
 .footer a {
   color: white;
