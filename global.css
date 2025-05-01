@@ -56,3 +56,11 @@ body {
 .my-button:active {
   transform: scale(0.95);
 }
+
+.full-width-line {
+  width: 100%;         /* 宽度占满整个屏幕 */
+  height: 5px;         /* 设置线条高度 */
+  background-color: black;  /* 设置黑色 */
+  border: none;        /* 去掉默认边框 */
+  margin: 0;           /* 可选：去掉上下的间距 */
+}
