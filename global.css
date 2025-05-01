@@ -24,10 +24,10 @@ body {
   background-color: black !important; /* 强制生效 */
   padding: 20px;
   text-align: center;
-  position: relative; /* 改为 absolute 或 fixed 来确保底部显示 */
-  bottom: 0;
-  width: 100%; /* 使底栏宽度填满屏幕 */
-  z-index: 9999; /* 确保它在最上层显示 */
+  position: fixed; /* 设置为fixed，始终固定在底部 */
+  bottom: 0;       /* 底部对齐 */
+  width: 100%;     /* 底栏宽度填满屏幕 */
+  z-index: 9999;   /* 确保底栏在最上层显示 */
 }
 
 .footer a {
