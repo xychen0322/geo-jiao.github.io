@@ -21,10 +21,11 @@ body {
 
 /* =============== 底部按钮栏样式 =============== */
 .footer {
-  background-color: black !important;
+  background-color: black !important; /* 强制生效 */
   padding: 20px;
   text-align: center;
-  border: 2px solid red;  /* 临时加个红色边框检查 */
+  position: relative; /* 确保它是固定位置的 */
+  z-index: 9999; /* 确保它在最上层显示 */
 }
 
 .footer a {
